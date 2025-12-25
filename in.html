@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000" />
+  <title>Planetárium</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon-192.png" type="image/png" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+>
+<body>
+  <h1>🌌 Planetárium</h1>
+  <canvas id="solarSystem"></canvas>
+
+  <div id="infoBox" hidden>
+    <button onclick="resetView()">← Back</button>
+    <h2 id="planetName"></h2>
+    <p id="planetDesc"></p>
+  </div>
+
+  <div id="searchBox">
+    <input type="text" id="searchInput" placeholder="Search planet..." />
+    <button id="searchBtn" aria-label="Search"><span>🔍</span></button>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
